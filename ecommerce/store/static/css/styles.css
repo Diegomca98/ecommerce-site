@@ -1,0 +1,36 @@
+header nav.bg-light {
+    background: #00000033!important;
+}
+
+body {
+    background: #fefefe!important;
+}
+
+body .container.title {
+    padding-top: 1em;
+    padding-bottom: 4em!important;
+}
+
+body .container {
+    padding-bottom: 4em!important
+}
+
+div.sep {
+    padding-bottom: 2em;
+}
+
+div.sep.index_products {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 2em 0;
+    margin: 0 0 2em 0;
+}
+
+div.sep.index_products:hover {
+    box-shadow: 10px 5px 5px gray;
+}
+
+p.price {
+    margin-bottom: .5em;
+    font-size: 20px;
+}
