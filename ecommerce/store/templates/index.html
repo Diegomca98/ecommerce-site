@@ -13,9 +13,9 @@
                 <img height="250" src="{{ product.product_image }}">
             </div>
             <div class="col">
-                <h3>{{ product.product_name }}</h3>
+                <h3 id="name-{{product.id}}">{{ product.product_name }}</h3>
                 {% with price=product.product_price|mul:.9 %}
-                    <p><b>Online Price: </b>${{ price|floatformat:2 }}</p>
+                    <p><b>Online Price: </b>$<span id="price-{{product.id}}">{{ price|floatformat:2 }}</span></p>
                 {% endwith %}
                 <p><b>InStore Price: </b>${{ product.product_price }}</p>
                 <div class="row">
@@ -23,7 +23,7 @@
                         <a class="btn btn-info rounded details" href="{% url 'details' product.id %}">Details</a>
                     </div>
                     <div class="col-sm-8">
-                        <a class="btn btn-success rounded buy" href="#">Buy</a>
+                        <button id="{{ product.id }}" class="btn btn-success rounded buy add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div>

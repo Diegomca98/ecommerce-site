@@ -34,3 +34,83 @@ p.price {
     margin-bottom: .5em;
     font-size: 20px;
 }
+
+button#cart {
+    margin-right: .5em;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.text-info:hover {
+    color: white!important;
+}
+
+button.checkout,
+button.clear-cart {
+    width: 100%!important;
+}
+
+.checkout-container {
+    margin-top: 3em
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /*background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e);*/
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+span.badge.price {
+    font-size: large;
+}
+
+span.badge.price {
+    border-left: 1px solid #33333347;
+    border-radius: 0;
+}
+
+b.b-total,
+span.badge.total-price {
+    font-size: 1.3em;
+}
+
+b.b-total {
+    text-decoration: underline;
+}
+
+.form-check.card.payment-type {
+    padding-left: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+ul#item_list,
+ul#show-total,
+form.card.p-2.promo-form,
+.col-md-7.col-lg-8.customer-info {
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.col-md-7.col-lg-8.customer-info {
+    padding: 2em;
+}
+
+.text-info.your-cart:hover {
+    color: #17a2b8!important;
+}
